@@ -1,0 +1,13 @@
+{{ if site.Params.map.enable }}
+{{ with site.Params.map }}
+{{"<!-- Google Map -->" | safeHTML}}
+<iframe
+  height="450"
+  width="100%"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src={{ site.Params.map.gmap_embed }}>
+</iframe>{{ end }}
+{{ end }}
