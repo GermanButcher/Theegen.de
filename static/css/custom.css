@@ -1,0 +1,79 @@
+:root {
+    --accent: #E30613;
+    --section_background: #dfe0e1;
+    --body_background: #e94f3bb7;
+    --navbar_background: #ffffff;
+    --text: #56585a;
+  }
+
+.section-bg {
+    background: var(--section_background) !important;
+}
+
+body{
+    background-color: var(--body_background) !important;
+    color: var(--text);
+}
+
+.navigation {
+    background-color: var(--navbar_background) !important;
+}
+
+.title h2 {
+    color: var(--text) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text)  !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0,0,0, .7) !important;
+}
+
+.title h2 span {
+    color: var(--accent) !important;
+}
+
+.border-meghna:before {
+    background-color: var(--accent) !important;
+}
+
+.hero-area .block h1 {
+    color: var(--accent) !important;
+}
+
+.portfolio-filter .btn.active {
+    border-color: var(--accent) !important;
+}
+.portfolio-block .caption .search-icon {
+    background: var(--accent) !important;
+}
+
+::selection {
+    background: var(--accent) !important;
+}
+
+.btn-transparent:hover, .btn-transparent:focus {
+    background-color: var(--accent) !important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: var(--accent) !important;
+}
+
+.familie-picture > img {
+    border-radius: 5%;
+}
+
+p {
+    color: var(--text) !important;
+}
+
+a#impressum.impressum_link {
+    color: var(--text) !important;
+}
+
+a:hover#impressum.impressum_link {
+    color: var(--accent) !important;
+}
