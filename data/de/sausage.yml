@@ -1,0 +1,7 @@
+############################## Contact #############################
+sausage:
+  enable : true
+  title : Sausage
+  subtitle : Öffnungszeiten
+  content : "Montags - Freitags: 7:30 - 12:30 und 14:00 - 18:00 <br> Samstags: 7:30 - 12:30"
+  image: "images/familie.jpg"
