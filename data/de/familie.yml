@@ -1,0 +1,7 @@
+############################## Contact #############################
+familie:
+  enable : true
+  title : Das sind Wir
+  subtitle : Handwerk aus Tradition
+  content : "Wir sind eine Familien Fleischerei welche seit über 150 Jahre in Halstenbek immer frisches fleisch verarbeitet und verkauft."
+  image: "images/familie.jpg"
