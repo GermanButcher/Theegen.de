@@ -1,0 +1,31 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Erreiche Uns
+  subtitle : Öffnungszeiten
+  content : "Montags - Freitags: 7:30 - 12:30 und 14:00 - 18:00 <br> Samstags: 7:30 - 12:30"
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Schulstraße 8, 22869 Halstenbek"
+      
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: +49-4101-8305458481"
+      
+    #- icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+    #  info : "Fax: +880-31-000-000"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: hello@Theegen.de"
+
+
+  # Contact form
+  contact_form:
+    enable : false
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Your Name"
+    email : "Your Email"
+    subject : "Subject"
+    message : "Message"
+    submit : "Submit"

@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/hero.webp"
+  bg_image : "images/backgrounds/hero.png"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Fleischerei Theegen"
+  content : "Handwerk aus Tradition direkt in Halstenbek!"
+  button:
+    enable : true
+    label : "Komme zu uns"
+    link : "#contact"
