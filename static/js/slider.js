@@ -16,7 +16,7 @@ function changeSlide(n) {
 }
 function AutoNext() {
   
-  console.log("Auto image swith")
+  //console.log("Auto image swith")
   if(currentImg < imgs.length-1){
     var nextImg = currentImg+1
   }else{
