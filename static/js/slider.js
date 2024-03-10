@@ -2,7 +2,7 @@ var imgs = document.querySelectorAll('.slider img');
 var dots = document.querySelectorAll('.dot');
 var currentImg = 3; // index of the first image
 var nextImg = 1;
-const interval = 3000; // duration(speed) of the slide
+const interval = 5000; // duration(speed) of the slide
 
 function changeSlide(n) {
   //for (var i = 0; i < imgs.length; i++) { // reset
