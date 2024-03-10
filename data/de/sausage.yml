@@ -1,9 +1,9 @@
 ############################## Contact #############################
 sausage:
   enable : true
-  title : Sausage
-  subtitle : Öffnungszeiten
-  content : "Montags - Freitags: 7:30 - 12:30 und 14:00 - 18:00 <br> Samstags: 7:30 - 12:30"
+  title : Handwerk
+  subtitle : Das ist noch Handwerk!
+  content : "Wir produzieren selbst, um Frische und Qualität unserer Waren zu garantieren."
   image: "images/familie.jpg"
   image_slider1: "images/sausage/01.jpg"
   image_slider2: "images/sausage/02.jpg"
