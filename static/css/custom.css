@@ -92,3 +92,6 @@ a#impressum.impressum_link {
 a:hover#impressum.impressum_link {
     color: var(--accent) !important;
 }
+.hero-area {
+    background-position: center;
+}
