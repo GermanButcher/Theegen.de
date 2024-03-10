@@ -5,3 +5,7 @@ sausage:
   subtitle : Öffnungszeiten
   content : "Montags - Freitags: 7:30 - 12:30 und 14:00 - 18:00 <br> Samstags: 7:30 - 12:30"
   image: "images/familie.jpg"
+  image_slider1: "images/sausage/01.jpg"
+  image_slider2: "images/sausage/02.jpg"
+  image_slider3: "images/sausage/03.jpg"
+  image_slider4: "images/sausage/04.jpg"

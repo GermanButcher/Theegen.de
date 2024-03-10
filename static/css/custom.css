@@ -66,6 +66,21 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5%;
 }
 
+.sausage-picture {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 500px;
+    height: 350px;
+}
+
+.sausage-picture > img {
+    border-radius: 5%;
+    /*max-width: 250px;*/
+    width:auto; /* you can use % */
+    height: 340px;
+    position: absolute;
+}
+
 p {
     color: var(--text) !important;
 }

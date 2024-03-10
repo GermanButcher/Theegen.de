@@ -17,9 +17,23 @@
 			{{"<!-- /section title -->" | safeHTML}}
 
 			{{"<!-- Family Image -->" | safeHTML}}
-			<div class="sausage-picture">
-				<img src="{{ .image | absURL }}" alt="Familien Bild" height="300"/>
+			<!--Image Slider-->
+			<div class="imageslider">
+				<div class="slider sausage-picture" >
+					<img id="img-1" src="{{ .image_slider1 | absURL }}" alt="Image 1"/>
+					<img id="img-2" src="{{ .image_slider2 | absURL }}" alt="Image 2"/>
+					<img id="img-3" src="{{ .image_slider3 | absURL }}" alt="Image 3"/>
+					<img id="img-4" src="{{ .image_slider4 | absURL }}" alt="Image 4"/>
+				</div>
+				<div class="navigation-button">
+					<span class="dot active-img" onclick="changeSlide(0)"></span>
+					<span class="dot" onclick="changeSlide(1)"></span>
+					<span class="dot" onclick="changeSlide(2)"></span>
+					<span class="dot" onclick="changeSlide(3)"></span>
+				</div>
 			</div>
+			<script type="text/javascript" src="js/slider.js"></script>
+			<!--/Image Slider-->
 			{{"<!-- Contact Details -->" | safeHTML}}
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .subtitle | markdownify }}</h3>
