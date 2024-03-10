@@ -4,7 +4,7 @@
     "license": "UNLICENSED",
     "author": "gethugothemes",
     "scripts": {
-      "dev": "hugo server --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313",
+      "dev": "hugo server --bind=0.0.0.0 --baseURL=192.168.4.11",
       "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
       "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
       "dev:example": "cd exampleSite; hugo server --themesDir ../..",
