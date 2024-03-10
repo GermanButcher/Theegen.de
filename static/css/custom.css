@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent) !important;
 }
 
+.hero-area .block p {
+    color: var(--section_background) !important;
+}
+
 .portfolio-filter .btn.active {
     border-color: var(--accent) !important;
 }
