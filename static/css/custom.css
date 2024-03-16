@@ -1,7 +1,8 @@
 :root {
     --accent: #E30613;
     --section_background: #dfe0e1;
-    --body_background: #e94f3bb7;
+    --frontpage_background: #e94f3bb7;
+    --body_background: #dfe0e1;
     --navbar_background: #ffffff;
     --text: #56585a;
   }
@@ -65,6 +66,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: var(--accent) !important;
+}
+
+#content > section.section > div > div > div.col-lg-8.offset-lg-2.text-center > ul > li:nth-child(1) > a {
+    color: var(--text);
 }
 
 p {
