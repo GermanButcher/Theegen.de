@@ -67,25 +67,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent) !important;
 }
 
-.familie-picture > img {
-    border-radius: 5%;
-}
-
-.sausage-picture {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 500px;
-    height: 350px;
-}
-
-.sausage-picture > img {
-    border-radius: 5%;
-    /*max-width: 250px;*/
-    width:auto; /* you can use % */
-    height: 340px;
-    position: absolute;
-}
-
 p {
     color: var(--text) !important;
 }
@@ -99,4 +80,62 @@ a:hover#impressum.impressum_link {
 }
 .hero-area {
     background-position: center;
+}
+
+/* flex-Box */
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.flexboxitem {
+    min-width: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0px;
+    max-width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flexboxitem.contact {
+    min-width: 270px;
+}
+
+.flexboxitem > img {
+    border-radius: 5%;
+    width: auto;
+    max-width: 90%;
+    height: auto;
+}
+
+.flexboxitem > p {
+    max-width: 90%;
+}
+
+
+/* Over write bootstrap defaults*/
+.container {
+    max-width: 80% !important;
+}
+
+@media (min-width: 576px){
+    .container {
+        max-width: 80% !important;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 80% !important;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 60% !important;
+    }
 }

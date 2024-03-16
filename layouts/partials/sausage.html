@@ -16,28 +16,34 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{"<!-- Family Image -->" | safeHTML}}
+			{{"<!-- Custom Flex Sausage -->" | safeHTML}}
+			<div class="flexbox">
 			<!--Image Slider-->
-			<div class="imageslider">
-				<div class="slider sausage-picture" >
-					<img id="img-1" src="{{ .image_slider1 | absURL }}" alt="Image 1"/>
-					<img id="img-2" src="{{ .image_slider2 | absURL }}" alt="Image 2"/>
-					<img id="img-3" src="{{ .image_slider3 | absURL }}" alt="Image 3"/>
-					<img id="img-4" src="{{ .image_slider4 | absURL }}" alt="Image 4"/>
+				<div class="flexboxitem">
+					<!--<div class="imageslider">-->
+						{{/*  <div class="slider sausage-picture" style="background-image: url({{ .image_slider1 | absURL }});">  */}}
+						<div class="slider sausage-picture">
+							<div style="position: relative; left:0; top:0; height: inherit;">
+								{{/*  <img id="img-1" class="img-1" src="{{ .image_slider1 | absURL }}" alt="Image 1"/>  */}}
+								<img id="img-1" class="img-1" src="{{ .image_slider1 | absURL }}" alt="Image 2"/>
+								<img id="img-2" class="img-2" src="{{ .image_slider2 | absURL }}" alt="Image 3"/>
+								<img id="img-3" class="img-3" src="{{ .image_slider3 | absURL }}" alt="Image 4"/>
+								<img id="img-4" class="img-4" src="{{ .image_slider4 | absURL }}" alt="Image 4"/>
+							</div>
+						</div>
+						<div class="navigation-button">
+							<span class="dot active-img" onclick="changeSlide(0)"></span>
+							<span class="dot" onclick="changeSlide(1)"></span>
+							<span class="dot" onclick="changeSlide(2)"></span>
+							<span class="dot" onclick="changeSlide(3)"></span>
+						</div>
+					<!--</div>-->
+					<script type="text/javascript" src="js/slider.js"></script>
 				</div>
-				<div class="navigation-button">
-					<span class="dot active-img" onclick="changeSlide(0)"></span>
-					<span class="dot" onclick="changeSlide(1)"></span>
-					<span class="dot" onclick="changeSlide(2)"></span>
-					<span class="dot" onclick="changeSlide(3)"></span>
+				<div class="flexboxitem">
+					<h3>{{ .subtitle | markdownify }}</h3>
+					<p> {{ .content | markdownify }} </p>
 				</div>
-			</div>
-			<script type="text/javascript" src="js/slider.js"></script>
-			<!--/Image Slider-->
-			{{"<!-- Contact Details -->" | safeHTML}}
-			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>{{ .subtitle | markdownify }}</h3>
-				<p> {{ .content | markdownify }} </p>
 			</div>
 		</div>
 	</div>

@@ -18,15 +18,21 @@
 				</div>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
-			{{"<!-- Contact Details -->" | safeHTML}}
-			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>{{ .subtitle | markdownify }}</h3>
-				<p> {{ .content | markdownify }} </p>
+			{{"<!-- Costum flex Familie -->" | safeHTML}}
+			<div class="flexbox">
+				{{"<!-- Familie Details -->" | safeHTML}}
+				<div class= "flexboxitem">
+					<h3>{{ .subtitle | markdownify }}</h3>
+					<p> {{ .content | markdownify }} </p>
+				</div>
+				{{"<!-- /Familie Details -->" | safeHTML}}
+				{{"<!-- Familie Picture -->" | safeHTML}}
+				<div class="flexboxitem">
+					<img src="{{ .image | absURL }}" alt="Familien Bild" height="300"/>
+				</div>
+				{{"<!-- /Familie Picture -->" | safeHTML}}
 			</div>
-			{{"<!-- Family Image -->" | safeHTML}}
-			<div class="familie-picture">
-				<img src="{{ .image | absURL }}" alt="Familien Bild" height="300"/>
-			</div>
+			{{"<!-- /Costum flex Familie -->" | safeHTML}}
 		</div>
 	</div>
 </section>
