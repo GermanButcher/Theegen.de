@@ -1,13 +1,11 @@
 .sausage-picture {
-  width: 500px;
-  height: 350px;
+  width:auto;
+  height: 98%;
 }
 
 .sausage-picture > img {
   border-radius: 5%;
-  max-width: 250px;
-  width:auto;
-  height: inherit;
+  /* max-width: 250px; */
   position: relative;
 }
 
@@ -17,27 +15,30 @@
 } 
 
 
-
 .slider img:first-child {
   /*z-index: 1;*/
   opacity: 1;
   width: auto;
-  height: inherit;
+  height: 100%;
   position: absolute;
   top: inherit;
   left: inherit;
   border-radius: 5%;
+  max-width: 100%;
+  min-height: fit-content;
 } 
 
 .slider img:not(:first-child) {
   /*z-index: 0;*/
   opacity: 0;
   width: auto;
-  height: inherit;
+  height: 100%;
   position: absolute;
   top: inherit;
   left: inherit;
   border-radius: 5%;
+  max-width: 100%;
+  min-height: fit-content;
 }
 
 .img-1 {
