@@ -1,8 +1,6 @@
 ---
 title: "Impressum"
 date: 2024-03-06T19:34:00+06:00
-image_webp: images/blog/blog-post-3.webp
-image: images/blog/blog-post-3.jpg
 author: Johannes Theegen
 description : ""
 ---
