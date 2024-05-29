@@ -109,7 +109,7 @@ weight = 7
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Fleisch- und Wurstwarem"
+description = "Fleisch- und Wurstwaren"
 author = "Johannes Theegen"
 # Google Analytics
 #google_analytics_id = "" # Your ID
